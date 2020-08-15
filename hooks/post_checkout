@@ -1,0 +1,6 @@
+#!/bin/bash
+
+curl -Lo manifest-tool https://github.com/estesp/manifest-tool/releases/download/v1.0.2/manifest-tool-linux-amd64
+chmod +x manifest-tool
+
+curl -LSs https://github.com/multiarch/qemu-user-static/releases/download/v5.0.0-2/x86_64_qemu-aarch64-static.tar.gz | tar xzv
