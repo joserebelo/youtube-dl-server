@@ -1,0 +1,11 @@
+image: josereb/youtube-dl-server:latest
+manifests:
+  - image: josereb/youtube-dl-server:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: josereb/youtube-dl-server:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
